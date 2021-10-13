@@ -1,0 +1,2 @@
+C:\Users\Aiko\source\repos\Pokemons\Pokemons\obj\Debug\Pokemons.csprojAssemblyReference.cache
+C:\Users\Aiko\source\repos\Pokemons\Pokemons\obj\Debug\Pokemons.csproj.CoreCompileInputs.cache

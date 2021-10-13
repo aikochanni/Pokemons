@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Pokemons
 {
-    class Skill
+    public class Skill
     {
-        public string name;
+        public string Name;
         public int BaseDMG;
         public string Type;
 
-        static void Constructor()
+        public Skill(string name, int base_dmg, string type)
         {
-
+            Name = name;
+            BaseDMG = base_dmg;
+            Type = type;
         }
     }
 }

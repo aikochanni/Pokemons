@@ -6,47 +6,56 @@ using System.Threading.Tasks;
 
 namespace Pokemons
 {
-    class Pokemon
+    public class Pokemon
     {
-        private static string name;
+        private string Name;
         private List<Skill> Skills;
-        private static string Type;
-        private static int hP;
-        private static int level;
+        private string Type;
+        private int HP;
+        private int Level;
 
-        static void Constructor()
+        public Pokemon(string name, List<Skill> skills, string type, int hp, int level)
         {
+            Name = name;
+            List<Skill> Skills = new List<Skill>();
+            Type = type;
+            HP = hp;
+            Level = level;
             level = 1;
-        }
-
-        static void displayName()
-        {
-            Console.WriteLine(name);
-        }
-
-        static void listSkills()
-        {
-            return Skills();
-        }
-
-        static void getSkill(int index)
-        {
-            return Skill;
-        }
-
-        static void showStats(string[] args)
-        {
 
         }
 
-        static void getHP()
+        public string DisplayName()
         {
-            return hP;
+            Console.WriteLine(Name);
+            return null;
         }
 
-        static void getLevel()
+        public List<Skill> ListSkills()
         {
-            return level;
+            var var_List = new List<Skill>();
+            return var_List;
+        }
+
+        public List<Skill> getSkill(int index)
+        {
+            return Skills;
+        }
+
+        public string ShowStats()
+        {
+            Console.WriteLine(HP + Level);
+            return null;
+        }
+
+        public int GetHP()
+        {
+            return HP;
+        }
+
+        public int GetLevel()
+        {
+            return Level;
         }
 
     }
