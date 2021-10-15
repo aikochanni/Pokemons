@@ -30,10 +30,10 @@ namespace Pokemons
 
         public void Catch()
         {
-            //if (Team.Capacity() > 6)
+            if (Team.Capacity() > 6)
             {
                 Pokedex.Add(new Pokemon());
-            } //else if (Team.Capacity() < 6)
+            } else if (Team.Capacity() < 6)
             {
                 Team.Add(new Pokemon());
                 Pokedex.Add(new Pokemon());
@@ -42,7 +42,7 @@ namespace Pokemons
 
         public void Release(int index)
         {
-            //Team.Remove(Pokemon[index]);
+            Team.Remove(Pokemon[index]);
         }
 
         public List<Pokemon> GetTeam()
