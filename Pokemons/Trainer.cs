@@ -28,7 +28,7 @@ namespace Pokemons
             return Pokedex;
         }
 
-        public void Catch()
+        public void Catch(Pokemon)
         {
             if (Team.Capacity() > 6)
             {
