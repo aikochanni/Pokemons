@@ -20,6 +20,10 @@ namespace Pokemons
             Level = 1;
         }
 
+        public Pokemon()
+        {
+        }
+
         public void DisplayName()
         {
             Console.WriteLine(Name);
